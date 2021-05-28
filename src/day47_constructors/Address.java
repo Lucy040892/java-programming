@@ -18,9 +18,11 @@ public class Address {
     }
     //second constructor, overloaded constructor -> provides shortcut to initialize variables
     //in same statement: ex: Address ad = new Address("123 java st", "Boston", "MA", "12654")
-    public Address(String street, String city, String zipCode) {
-        this.street = street;
+    public Address(String street, String city, String state, String zipCode) {
         setStreet(street); //reuse the code in the setter method
+        this.city = city;
+        this.state = state;
+        this. zipCode = zipCode;
 
 
     }
