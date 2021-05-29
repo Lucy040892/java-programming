@@ -29,6 +29,11 @@ public class CybertekGroups {
         }else{
 
         }
+        //remove some members from the group
+        group1.removeMember("Parvin");
+        group1.removeMember("Rasim");
+        System.out.println(group1);
+
 
     }
 }
