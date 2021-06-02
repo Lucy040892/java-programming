@@ -13,6 +13,7 @@ public class BusObjects {
 
         System.out.println(metroBus.toString());
         //print driver name of metroBus
+        System.out.println(metroBus.driver.getName());
 
 
     }
