@@ -17,5 +17,5 @@ public class StaticBlockDemo {
         num += 5;
 
     }
-    //other method to use car models
+    //other methods that use the carModels ArrayList
 }
