@@ -1,5 +1,7 @@
 package day50_inheritance;
 
+import java.util.ArrayList;
+
 public class InheritanceTest {
     public static void main(String[] args) {
         Person p1 = new Person();
@@ -13,9 +15,10 @@ public class InheritanceTest {
         Teacher t1 = new Teacher();
         t1.teacherID = 1234;
         t1.name = "Saim";
-        t1.age = 27;
+        t1.age = 25;
         t1.talk();
         t1.walk();
+        t1.teach("java inheritance");
 
         Student student = new Student();
         student.name = "Ali";
@@ -23,7 +26,7 @@ public class InheritanceTest {
         student.walk();
         student.talk();
         student.work("Java programmer");
-        student.school = "Cybertekschool";
+        student.school = "CybertekSchool";
         student.study("java programming inheritance");
     }
 }

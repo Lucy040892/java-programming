@@ -7,7 +7,7 @@ public class BookObjects {
         book.author = "Savitch";
         book.type = "programming";
         book.price = 85.0;
-        //book.size = 40; ERROR size is a variable from subclass
+        //book.pages = 40; ERROR
 
         System.out.println(book.title);
         System.out.println(book.author);
@@ -29,6 +29,8 @@ public class BookObjects {
         eBook.type = "programming";
         eBook.price = 85.0;
         eBook.size = 2;
+        eBook.pages = 1000;
+        eBook.readBook();
 
     }
 }

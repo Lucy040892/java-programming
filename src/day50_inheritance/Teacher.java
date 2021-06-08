@@ -5,11 +5,10 @@ package day50_inheritance;
  * Child class
  * Derived class
  */
-
-public class Teacher extends Person{
+public class Teacher extends Person {
     int teacherID;
 
     public void teach(String topic) {
-        System.out.println("Teacher is teaching " +topic);
+        System.out.println("Teacher is teaching " + topic);
     }
 }
