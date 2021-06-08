@@ -6,6 +6,8 @@ public class StaticBlockTest {
         StaticBlockDemo st2 = new StaticBlockDemo(); //static block does not run second time (20)
         StaticBlockDemo st3 = new StaticBlockDemo(); // constructor runs every time when object is created (25)
         System.out.println(StaticBlockDemo.num);//25
+        StaticBlockDemo st4 = new StaticBlockDemo(50);
+        System.out.println(StaticBlockDemo.num);//75
 
     }
 }
