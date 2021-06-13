@@ -7,6 +7,17 @@ public class ElectricCar {
     private int year;
     private int range;
 
+    @Override
+    public String toString() {
+        return "ElectricCar{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", price=" + price +
+                ", year=" + year +
+                ", range=" + range +
+                '}';
+    }
+
     public int getRange() {
         return range;
     }
