@@ -6,4 +6,6 @@ public class StaticVariables {
     public static int age = 44;
     public static double price = 5.99;
 
+
+
 }
