@@ -1,5 +1,4 @@
 package OfficeHours.Practice_06_28_2021;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -31,7 +30,15 @@ public class Post {
         this.body = body;
     }
 
-//    public String getDATE_TIME() {
-//        return DATE_TIME;
-//    }
+    public String getDATE_TIME() {
+        return DATE_TIME;
+    }
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "body='" + body + '\'' +
+                ", DATE_TIME='" + DATE_TIME + '\'' +
+                '}';
+    }
 }
