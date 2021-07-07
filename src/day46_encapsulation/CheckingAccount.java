@@ -1,7 +1,5 @@
 package day46_encapsulation;
 
-import com.sun.org.apache.bcel.internal.generic.Select;
-import jdk.nashorn.internal.objects.annotations.Setter;
 
 public class CheckingAccount {
     private double balance;
