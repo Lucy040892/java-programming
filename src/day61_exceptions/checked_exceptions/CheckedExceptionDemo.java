@@ -1,4 +1,4 @@
-package day61_exceptions_collections.checked_exceptions;
+package day61_exceptions.checked_exceptions;
 
 public class CheckedExceptionDemo {
     public static void main(String[] args) throws InterruptedException{
