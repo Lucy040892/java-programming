@@ -1,9 +1,7 @@
 package day63_collections;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+
+import java.util.*;
 
 public class SetExamples {
     public static void main(String[] args) {
@@ -25,12 +23,38 @@ public class SetExamples {
         words.add("java");
         words.add("java");
         words.add("collection");
+        words.remove("world");
         System.out.println(words);
 
         //convert your Set to a List
 
         List<String> wordList = new ArrayList<>(words);
         System.out.println(wordList.get(0));
+
+        //LinkedHashSet
+        Set<String> linkedHashSet = new LinkedHashSet<>();
+        linkedHashSet.add("24");
+        linkedHashSet.add("java");
+        linkedHashSet.add("$#");
+        linkedHashSet.add("53");
+        linkedHashSet.add("apple");
+        linkedHashSet.add("cucumber");
+        linkedHashSet.add("53");
+        System.out.println(linkedHashSet);
+
+        //TreeSet
+
+        Set<String> linkedHashSet2 = new TreeSet<>(); //natural order: stores elements into their natural order(lexicographical)
+        linkedHashSet2.add("24");
+        linkedHashSet2.add("java");
+        linkedHashSet2.add("$#");
+        linkedHashSet2.add("53");
+        linkedHashSet2.add("apple");
+        linkedHashSet2.add("cucumber");
+        linkedHashSet2.add("53");
+        System.out.println(linkedHashSet2);
+
+        ((TreeSet)linkedHashSet2).first();
 
     }
 }
