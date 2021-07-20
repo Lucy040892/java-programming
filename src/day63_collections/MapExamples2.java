@@ -34,5 +34,31 @@ public class MapExamples2 {
         map3.put(12, new Person("Nick", 10));
         System.out.println(map3);
 
+        /*
+        DB example
+
+        FIRST_NAME James
+        LAST_NAME Bond
+        AGE       50
+
+        FIRST_NAME Amy
+        LAST_NAME  Rose
+        Age        30
+
+        Map<String, String> map = new HashMap<>();
+        map.put("FIRST_NAME", "James");
+        map.put("LAST_NAME", "Bond");
+
+        map.get("FIRST_NAME)
+
+        if(map.get("AGE") < 0) fail test case
+
+        if(map.get("FIRST_NAME") == null) fsil test case
+
+        List< Map<String, String> list
+        list.get(0) -> Map<String, String>(james bond)
+        list.get(0).get("FIRST_NAME") -> James
+         */
+
     }
 }
