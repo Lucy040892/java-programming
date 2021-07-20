@@ -8,6 +8,7 @@ import java.util.Set;
 public class IteratorExample {
 
     //Iterator: an interface used for reading and remove elements from collections
+    //Think of the iterator as a pin that will iterate through each element of a collection
 
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
